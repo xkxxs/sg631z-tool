@@ -27,7 +27,7 @@ http://192.168.1.1/hidden_cmd.gch?pwd=aDm8H%25MdA
 - **Python 3.8+**（Termux、Linux、macOS、Windows 均可）
 - **纯标准库**：AES-128-CBC 已内置，无需 `pip install`，无需 root
 - 设备与光猫在**同一局域网**，浏览器能打开 `http://192.168.1.1`
-- 需要光猫**背面贴纸**上的普通账户（用户名一般为 `user`，密码形如 `t6kpk5rw`）
+- 需要光猫**背面贴纸**上的普通账户（用户名一般为 `user`，密码形如 `abc12345`）
 
 ## 使用方法
 
@@ -61,7 +61,7 @@ python3 sg631z.py --selftest                                      # 内置 AES �
   用户名            密码                         级别
   --------------------------------------------------------------
   CUAdmin        CUAdmin1a2b3c4d             管理员
-  user           t6kpk5rw                   普通用户
+  user           abc12345                   普通用户
 
 [23:06:58] OK    超级账户：CUAdmin / CUAdmin1a2b3c4d
 [23:06:58] HINT  管理员入口 http://192.168.1.1/cu.html（不是首页的“其它账户”）
